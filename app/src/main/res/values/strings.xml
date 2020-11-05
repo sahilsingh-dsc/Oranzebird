@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Oranzebird</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full name</string>
+    <string name="contact_number">Contact number</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
