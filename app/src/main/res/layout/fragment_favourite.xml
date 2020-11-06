@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".modules.fragment.FavouriteFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textSize="20sp"
         android:layout_gravity="center"
         android:fontFamily="@font/montserrat"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:text="Favourites"
         android:textColor="@color/colorPrimary"
-        android:text="Favourites"/>
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -93,7 +94,7 @@
 
                                 <ImageView
                                     android:layout_width="80dp"
-                                        android:layout_height="30dp"
+                                    android:layout_height="30dp"
                                     android:layout_margin="8dp"
                                     android:src="@drawable/add" />
 
@@ -326,16 +327,17 @@
         </ScrollView>
 
         <TextView
+            android:id="@+id/tvGoToCart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GOTO CART"
-            android:textSize="20sp"
-            android:padding="10dp"
             android:layout_margin="16dp"
-            android:gravity="center"
-            android:fontFamily="@font/montserrat_bold"
             android:background="@drawable/bg_btn_checkout_primary_enabled"
-            android:textColor="@color/colorTextH3"/>
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="GOTO CART"
+            android:textColor="@color/colorTextH3"
+            android:textSize="20sp" />
 
 
     </LinearLayout>

@@ -5,6 +5,11 @@
     <string name="full_name">Full name</string>
     <string name="contact_number">Contact number</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="fruits">Fruits</string>
+
+    <string name="open">Open</string>
+    <string name="cloase">Close</string>
+    <string name="banana_details">Banasa are known to reduce swelling, prottect against develping Type 2 diabetes, aid in weight loass, strengthen the nervous system and help with production of white blood cells</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

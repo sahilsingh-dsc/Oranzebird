@@ -1,15 +1,14 @@
 package com.tetravalstartups.oranzebird.auth;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.tetravalstartups.oranzebird.R;
 import com.tetravalstartups.oranzebird.common.MainActivity;
-import com.tetravalstartups.oranzebird.modules.CartActivity;
 
 public class LogInActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -46,7 +45,7 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void gotoMainScreen() {
-        Intent intent = new Intent(LogInActivity.this, CartActivity.class);
+        Intent intent = new Intent(LogInActivity.this, MainActivity.class);
         startActivity(intent);
         finish();
     }

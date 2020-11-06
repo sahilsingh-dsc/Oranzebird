@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Oranzebird">
-        <activity android:name=".modules.CartActivity"></activity>
-        <activity android:name=".common.MainActivity" />
+        <activity
+            android:name=".common.FruitDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".modules.CartActivity" />
+        <activity
+            android:name=".common.MainActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".auth.OtpActivity" />
         <activity android:name=".auth.PhoneActivity" />
         <activity android:name=".auth.SignUpActivity" />

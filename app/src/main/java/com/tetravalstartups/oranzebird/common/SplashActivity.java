@@ -1,13 +1,13 @@
 package com.tetravalstartups.oranzebird.common;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.tetravalstartups.oranzebird.R;
-import com.tetravalstartups.oranzebird.auth.LogInActivity;
+import com.tetravalstartups.oranzebird.auth.PhoneActivity;
 import com.tetravalstartups.oranzebird.utils.Constant;
 
 public class SplashActivity extends AppCompatActivity {
@@ -23,7 +23,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, LogInActivity.class);
+                Intent intent = new Intent(SplashActivity.this, PhoneActivity.class);
                 startActivity(intent);
                 finish();
             }
