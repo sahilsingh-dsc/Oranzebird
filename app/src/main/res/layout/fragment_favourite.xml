@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".modules.CartActivity">
+    tools:context=".modules.fragment.FavouriteFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/ivGoBack"
-            android:layout_width="56dp"
-            android:layout_height="56dp"
-            android:padding="12dp"
-            android:background="?selectableItemBackground"
-            android:clickable="true"
-            android:src="@drawable/ic_baseline_arrow_back_24"/>
-
-    </LinearLayout>
-
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/colorPrimary"
+        android:text="Favourites"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +25,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -99,24 +92,10 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="30dp"
-                                    android:layout_height="30dp"
+                                    android:layout_width="80dp"
+                                        android:layout_height="30dp"
                                     android:layout_margin="8dp"
-                                    android:src="@drawable/less" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="01"
-                                    android:textColor="@color/colorPrimary"
-                                    android:textSize="18sp" />
-
-                                <ImageView
-                                    android:layout_width="30dp"
-                                    android:layout_height="30dp"
-                                    android:layout_margin="8dp"
-                                    android:src="@drawable/more" />
+                                    android:src="@drawable/add" />
 
                             </LinearLayout>
 
@@ -185,24 +164,10 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="30dp"
+                                    android:layout_width="80dp"
                                     android:layout_height="30dp"
                                     android:layout_margin="8dp"
-                                    android:src="@drawable/less" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="10"
-                                    android:textColor="@color/colorPrimary"
-                                    android:textSize="18sp" />
-
-                                <ImageView
-                                    android:layout_width="30dp"
-                                    android:layout_height="30dp"
-                                    android:layout_margin="8dp"
-                                    android:src="@drawable/more" />
+                                    android:src="@drawable/add" />
 
                             </LinearLayout>
 
@@ -271,24 +236,10 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="30dp"
+                                    android:layout_width="80dp"
                                     android:layout_height="30dp"
                                     android:layout_margin="8dp"
-                                    android:src="@drawable/less" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="20"
-                                    android:textColor="@color/colorPrimary"
-                                    android:textSize="18sp" />
-
-                                <ImageView
-                                    android:layout_width="30dp"
-                                    android:layout_height="30dp"
-                                    android:layout_margin="8dp"
-                                    android:src="@drawable/more" />
+                                    android:src="@drawable/add" />
 
                             </LinearLayout>
 
@@ -357,24 +308,10 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="30dp"
+                                    android:layout_width="80dp"
                                     android:layout_height="30dp"
                                     android:layout_margin="8dp"
-                                    android:src="@drawable/less" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat_bold"
-                                    android:text="01"
-                                    android:textColor="@color/colorPrimary"
-                                    android:textSize="18sp" />
-
-                                <ImageView
-                                    android:layout_width="30dp"
-                                    android:layout_height="30dp"
-                                    android:layout_margin="8dp"
-                                    android:src="@drawable/more" />
+                                    android:src="@drawable/add" />
 
                             </LinearLayout>
 
@@ -388,111 +325,19 @@
 
         </ScrollView>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GOTO CART"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:background="@drawable/bg_btn_checkout_primary_enabled"
+            android:textColor="@color/colorTextH3"/>
+
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/colorTextH1"
-                android:fontFamily="@font/montserrat"
-                android:text="Subtotal"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
-                android:text="₹ 170"
-                android:textColor="@color/colorTextH2"
-                android:textSize="18sp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/colorTextH1"
-                android:fontFamily="@font/montserrat"
-                android:text="Discount"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
-                android:text="₹ 20"
-                android:textColor="@color/colorTextH2"
-                android:textSize="18sp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/colorTextH1"
-                android:fontFamily="@font/montserrat_bold"
-                android:text="Total"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat_bold"
-                android:text="₹ 170"
-                android:textColor="@color/colorTextH2"
-                android:textSize="18sp" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CHECKOUT"
-        android:textSize="20sp"
-        android:padding="10dp"
-        android:layout_margin="16dp"
-        android:gravity="center"
-        android:fontFamily="@font/montserrat_bold"
-        android:background="@drawable/bg_btn_checkout_primary_enabled"
-        android:textColor="@color/colorTextH3"/>
-
 
 </LinearLayout>
