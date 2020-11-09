@@ -12,4 +12,13 @@
     <string name="banana_details">Banasa are known to reduce swelling, prottect against develping Type 2 diabetes, aid in weight loass, strengthen the nervous system and help with production of white blood cells</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_item">Search Item</string>
+    <string name="veg">Veg</string>
+
+    <string name="packed">Packed</string>
+    <string name="milk">Milk</string>
+    <string name="banana">Banana</string>
+    <string name="_12pcs_500_to_900gm">12pcs - 500 to 900gm</string>
+    <string name="_35">₹ 35</string>
+    <string name="add">Add</string>
 </resources>

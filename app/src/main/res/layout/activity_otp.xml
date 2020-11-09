@@ -23,6 +23,7 @@
         android:paddingEnd="16dp">
 
         <TextView
+            android:id="@+id/tvUserNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -38,82 +39,88 @@
             android:gravity="center"
             android:orientation="horizontal">
 
-            <EditText
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:gravity="center"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/colorTextH1"
-                android:textSize="24sp" />
+            <!--            <EditText-->
+            <!--                android:layout_width="40dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:fontFamily="@font/montserrat_bold"-->
+            <!--                android:gravity="center"-->
+            <!--                android:imeOptions="actionDone"-->
+            <!--                android:importantForAutofill="no"-->
+            <!--                android:inputType="number"-->
+            <!--                android:maxLength="1"-->
+            <!--                android:textColor="@color/colorTextH1"-->
+            <!--                android:textSize="24sp" />-->
 
-            <EditText
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_marginStart="4dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:gravity="center"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/colorTextH1"
-                android:textSize="24sp" />
+            <!--            <EditText-->
+            <!--                android:layout_width="40dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:layout_marginStart="4dp"-->
+            <!--                android:fontFamily="@font/montserrat_bold"-->
+            <!--                android:gravity="center"-->
+            <!--                android:imeOptions="actionDone"-->
+            <!--                android:importantForAutofill="no"-->
+            <!--                android:inputType="number"-->
+            <!--                android:maxLength="1"-->
+            <!--                android:textColor="@color/colorTextH1"-->
+            <!--                android:textSize="24sp" />-->
 
-            <EditText
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_marginStart="4dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:gravity="center"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/colorTextH1"
-                android:textSize="24sp" />
+            <!--            <EditText-->
+            <!--                android:layout_width="40dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:layout_marginStart="4dp"-->
+            <!--                android:fontFamily="@font/montserrat_bold"-->
+            <!--                android:gravity="center"-->
+            <!--                android:imeOptions="actionDone"-->
+            <!--                android:importantForAutofill="no"-->
+            <!--                android:inputType="number"-->
+            <!--                android:maxLength="1"-->
+            <!--                android:textColor="@color/colorTextH1"-->
+            <!--                android:textSize="24sp" />-->
 
-            <EditText
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_marginStart="4dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:gravity="center"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/colorTextH1"
-                android:textSize="24sp" />
+            <!--            <EditText-->
+            <!--                android:layout_width="40dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:layout_marginStart="4dp"-->
+            <!--                android:fontFamily="@font/montserrat_bold"-->
+            <!--                android:gravity="center"-->
+            <!--                android:imeOptions="actionDone"-->
+            <!--                android:importantForAutofill="no"-->
+            <!--                android:inputType="number"-->
+            <!--                android:maxLength="1"-->
+            <!--                android:textColor="@color/colorTextH1"-->
+            <!--                android:textSize="24sp" />-->
 
-            <EditText
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_marginStart="4dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:gravity="center"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/colorTextH1"
-                android:textSize="24sp" />
+            <!--            <EditText-->
+            <!--                android:layout_width="40dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:layout_marginStart="4dp"-->
+            <!--                android:fontFamily="@font/montserrat_bold"-->
+            <!--                android:gravity="center"-->
+            <!--                android:imeOptions="actionDone"-->
+            <!--                android:importantForAutofill="no"-->
+            <!--                android:inputType="number"-->
+            <!--                android:maxLength="1"-->
+            <!--                android:textColor="@color/colorTextH1"-->
+            <!--                android:textSize="24sp" />-->
 
+            <!--            <EditText-->
+            <!--                android:layout_width="40dp"-->
+            <!--                android:layout_height="45dp"-->
+            <!--                android:layout_marginStart="4dp"-->
+            <!--                android:fontFamily="@font/montserrat_bold"-->
+            <!--                android:gravity="center"-->
+            <!--                android:imeOptions="actionDone"-->
+            <!--                android:importantForAutofill="no"-->
+            <!--                android:inputType="number"-->
+            <!--                android:maxLength="1"-->
+            <!--                android:textColor="@color/colorTextH1"-->
+            <!--                android:textSize="24sp" />-->
             <EditText
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_marginStart="4dp"
-                android:fontFamily="@font/montserrat_bold"
-                android:gravity="center"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
-                android:inputType="number"
-                android:maxLength="1"
-                android:textColor="@color/colorTextH1"
-                android:textSize="24sp" />
+                android:id="@+id/etOTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter OTP"
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <LinearLayout
@@ -139,6 +146,7 @@
 
 
         </LinearLayout>
+
         <TextView
             android:id="@+id/tvSubmit"
             android:layout_width="wrap_content"

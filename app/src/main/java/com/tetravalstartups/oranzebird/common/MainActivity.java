@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.navgation_activity);
+        setContentView(R.layout.activity_main);
         initView();
     }
 
@@ -174,5 +174,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return false;
     }
 
-    //commenting for commit
+
 }
