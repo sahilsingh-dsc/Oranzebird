@@ -7,6 +7,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.tetravalstartups.oranzebird.R;
+import com.tetravalstartups.oranzebird.auth.LogInActivity;
 import com.tetravalstartups.oranzebird.auth.PhoneActivity;
 import com.tetravalstartups.oranzebird.utils.Constant;
 
@@ -23,7 +24,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, PhoneActivity.class);
+                Intent intent = new Intent(SplashActivity.this, LogInActivity.class);
                 startActivity(intent);
                 finish();
             }
